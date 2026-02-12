@@ -1,0 +1,26 @@
+.loading-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #ffffff30;
+  border-top: 6px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

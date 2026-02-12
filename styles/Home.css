@@ -1,0 +1,59 @@
+/* Page */
+.home-page {
+  padding-bottom: 70px; /* bottom nav space */
+  background: linear-gradient(135deg, #aed13a, #2575fc);
+
+}
+
+/* Search bar */
+.search-bar {
+  width: 90%;
+  max-width: 500px;
+  margin: 15px auto;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 1px solid #08c437;
+  outline: none;
+}
+
+/* Cards container */
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;   /* 🔥 center each card */
+}
+
+/* Card */
+.event-card {
+  width: 100%;
+  max-width: 280px;
+  background: linear-gradient( rgba(50, 50, 210, 0.564));
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 12px;
+  text-align: center;
+}
+
+/* Image */
+.event-image {
+  width: 100%;
+  height: 160px;          
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+/* Button */
+.event-card button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  background: #1dceae;
+  color: #101010;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

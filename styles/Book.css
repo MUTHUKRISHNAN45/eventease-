@@ -1,0 +1,97 @@
+/* ===== Booking Page ===== */
+
+.booking-page {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Event Image */
+.booking-page img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Event Title */
+.booking-page h2 {
+  margin: 10px 0;
+  font-size: 26px;
+}
+
+/* Event Time */
+.booking-page p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Seat Section Title */
+.booking-page h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* ===== Seat Layout ===== */
+.seat-layout {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* Seat Button */
+.seat {
+  padding: 12px 0;
+  border-radius: 6px;
+  border: none;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+/* Seat Hover */
+.seat:hover {
+  background-color: #bdbdbd;
+}
+
+/* Selected Seat */
+.seat.selected {
+  background-color: #2e7d32;
+  color: #fff;
+}
+
+/* ===== Summary Box ===== */
+.summary {
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+/* Total Price */
+.summary h3 {
+  color: #d32f2f;
+  margin-top: 5px;
+}
+
+/* Confirm Button */
+.confirm-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background-color: #ff3f6c;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Disabled Confirm Button */
+.confirm-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
